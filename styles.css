@@ -1,0 +1,27 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.toggled { 
+ display: block;
+ padding-top: 1rem;
+}
+
+.toggled li {
+    padding-left: 0.5rem;
+}
+
+.toggled li:hover {
+    background-color: rgb(175, 253, 175);
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold; 
+}
+
+body {
+    background-color: rgb(243, 241, 241) 
+}
