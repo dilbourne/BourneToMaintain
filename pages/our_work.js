@@ -8,7 +8,7 @@ export default function OurWork(props) {
     return (
         <Layout>
             <div className="w-full flex flex-col">
-                <p className="text-sm md:text-lg lg:text-xl text-center text-green-900 font-bold pt-6">Jobs listed were completed to client specifications</p>
+                <p className="text-sm md:text-base lg:text-lg text-center text-green-900 font-bold pt-6">Jobs listed were completed to client specifications</p>
                 <div className="container bg-green-300 rounded shadow-lg flex flex-row flex-wrap justify-around lg:justify-center items-center my-3">
                     <Card src={folder + "before-1.jpg"} title={before}/>
                     <Card src={folder + "after-1.jpg"} title={after} />
