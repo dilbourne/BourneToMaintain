@@ -5,7 +5,7 @@ export default function List(props) {
     return (
         <>
         <ul className="list-none">
-            { props.items.map((item) => <ListItem text={item} />) }
+            { props.items.map((item, index) => <ListItem key={index} text={item} />) }
         </ul>
         </>
     )
