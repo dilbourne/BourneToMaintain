@@ -6,7 +6,7 @@ export default function Home() {
   const services_list = ['Mowing', 'Hedge Trimming', 'Debris Removal', 'Pesticide Spraying', 'Freighting', 'Pressure Washing', 'and More!'];
   const why_us_list = ['Attention to Detail', 'Competitive Pricing', 'Efficient', 'Experienced', 'Free Consultations', 'Friendly & Trustworthy', 'Reliability'];
   return (
-    <Layout>
+    <Layout title="Bourne To Maintain" description="Affordable and efficient Lawn Maintenance and Freighting services located in Barbados.">
         <div className="flex flex-row flex-wrap items-center justify-around">
               <div className="flex flex-col items-center justify-around h-96 w-3/4 my-6 mx-2 md:w-88 bg-white opacity-90 rounded-lg p-4 cursor-pointer hover:opacity-100 shadow-xl">
                   <h2 className="text-2xl text-green-900 uppercase">Our Services</h2>

@@ -6,7 +6,7 @@ export default function OurWork(props) {
     const after = "After";
     const folder = "images/"
     return (
-        <Layout>
+        <Layout title="Portfolio" description="How good is our work? Take a look at our portfolio.">
             <div className="w-full flex flex-col">
                 <p className="text-sm md:text-base lg:text-lg text-center text-green-900 font-bold pt-6">Jobs listed were completed to client specifications</p>
                 <div className="container bg-green-300 rounded shadow-lg flex flex-row flex-wrap justify-around lg:justify-center items-center my-3">
