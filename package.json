@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "lightbox-react": "^0.3.8",
     "next": "^10.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
