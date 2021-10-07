@@ -6,6 +6,7 @@ module.exports = {
         ? {
             '@fullhuman/postcss-purgecss': {
               content: [
+                './node_modules/lightbox-react/style.css',
                 './components/**/*.js',
                 './pages/**/*.js'
               ],
